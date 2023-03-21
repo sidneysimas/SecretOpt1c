@@ -60,7 +60,11 @@ You can install Gobuster on Kali Linux by running the following command:
 
 - Waybackurls : `go install github.com/tomnomnom/waybackurls@latest`
 
-- Wordlists: SecretOpt1c uses wordlists to brute force subdomains and directories. There are several good wordlists available online, such as the SecLists project (https://github.com/danielmiessler/SecLists) and the FuzzDB project (https://github.com/fuzzdb-project/fuzzdb).
+- Wordlists: SecretOpt1c uses wordlists to brute force subdomains and directories. There are several good wordlists available online, such as the SecLists project (https://github.com/danielmiessler/SecLists) 
+```
+/usr/share/seclists/
+```
+- and the FuzzDB project (https://github.com/fuzzdb-project/fuzzdb).
 
 - SecretHub.json: SecretHub.json is a custom regex pattern matching engine that is included in the SecretOpt1c GitHub repository
 
