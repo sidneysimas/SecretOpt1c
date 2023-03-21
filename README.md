@@ -44,9 +44,13 @@ It is also, our little S3cr3t...
 # Requirements:
 
 To use SecretOpt1c, you need to have the following tools installed:
-
-- figlet & lolcat: `pip install lolcat` & `apt-get install figlet`
-
+```
+figlet & lolcat: `pip install lolcat` & `apt-get install figlet`
+```
+or 
+```
+sudo apt -y install lolcat
+```
 - (Pipe Viewer) utility to display a progress bar in the terminal. You can install "pv" by running: `sudo apt-get install pv`
 
 - Gobuster: Gobuster is a tool used to brute force subdomains and directories. It is the core component of SecretOpt1c and is required for the tool to function.
